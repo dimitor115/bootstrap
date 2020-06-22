@@ -1227,6 +1227,9 @@ $carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://
 $carousel-transition-duration:       .6s !default;
 $carousel-transition:                transform $carousel-transition-duration ease-in-out !default; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
 
+// Side menu
+$side-menu-transition-duration: .5s !default;
+$side-menu-transition: width $side-menu-transition-duration !default;
 
 // Spinners
 

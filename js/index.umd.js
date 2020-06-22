@@ -16,6 +16,7 @@ import ScrollSpy from './src/scrollspy'
 import Tab from './src/tab'
 import Toast from './src/toast'
 import Tooltip from './src/tooltip'
+import SideMenu from './src/side-menu'
 
 export default {
   Alert,
@@ -28,5 +29,6 @@ export default {
   ScrollSpy,
   Tab,
   Toast,
-  Tooltip
+  Tooltip,
+  SideMenu
 }
