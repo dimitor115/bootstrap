@@ -15,7 +15,7 @@ Alerts are available for any length of text, as well as an optional close button
 
 {{< example >}}
 <div class="position-relative" style="height: 400px">
-    <div id="exampleMenu" class="horizontal-nav nav-minimized">
+    <div id="exampleMenu" class="horizontal-nav">
         <nav class="nav py-2">
           <a class="nav-link active" href="#">
             <i class="fa fa-cloud nav-icon"></i>
@@ -23,17 +23,21 @@ Alerts are available for any length of text, as well as an optional close button
               Active Page
             </div>
           </a>
-          <a class="nav-link" href="#">
-            <i class="fa fa-address-book nav-icon"></i>
-            <div class="nav-title"> Awesome Link </div>
-          </a>
-          <a class="nav-link" href="#">
-            <i class="fa fa-code-fork nav-icon"></i>
-            <div class="nav-title">
-              Link
+          <div class="nav-dropdown">
+            <a class="nav-link" href="#">
+               <i class="fa fa-address-book nav-icon"></i>
+               <div class="nav-title"> Awesome Link </div>
+            </a>
+            <div class="nav-dropdown-menu">
+                <a class="nav-link" href="#">
+                   <div class="nav-title"> Awesome Link </div>
+                </a>
+                <a class="nav-link" href="#">
+                   <div class="nav-title"> Awesome Link </div>
+                </a>
             </div>
-          </a>
-          <a class="nav-link" href="#">
+          </div>
+          <a class="nav-link active" href="#">
             <i class="fa fa-beer nav-icon"></i>
             <div class="nav-title">
               Grab a Beer
